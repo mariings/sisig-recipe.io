@@ -1,0 +1,82 @@
+*{
+    font-family: Arial;
+    margin:  auto;
+    margin-left:20px;
+  
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+}
+h2{
+    margin: 50px;
+    font-size: 30px;
+}
+.introduction{
+    text-align: justify;
+    justify-content: center;
+    margin-left: 50px;
+    line-height: 25px;
+
+}
+#pulutan{
+    background-color: orange;
+    border-radius: 4px;
+
+}
+.recipe{
+    margin-top: 40px;
+    margin-left: 50px;
+ 
+}
+.recipe li{
+    line-height: 30px;
+}
+h4{
+    margin-top: 20px;
+}
+
+article{
+    margin-top: 20px;
+}
+
+.instructions li{
+    line-height: 30px;
+}
+
+footer{
+    padding-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+} 
+.pic{
+    position:absolute;
+    margin-left: 500px;
+    padding: 50px;
+
+   
+    
+}
+.pic img{
+     height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    z-index: auto;
+    box-shadow: 10px 10px 5px darkgoldenrod;
+
+
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: auto;
+   width: auto;
+   margin-top: 20px;
+   margin-left: 250px;
+   
+}
+video{
+    border: 3px solid #333;
+    border-radius: 40px;
+}
